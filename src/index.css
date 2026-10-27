@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Sora:wght@500;600;700;800&display=swap');
+
+@import "tailwindcss";
+
+* {
+  font-family: "DM Sans", sans-serif;
+}
+
+h1, h2, h3, .font-display {
+  font-family: "Sora", sans-serif;
+}
+
+/* ====== COLORS: change them here and the whole site changes ====== */
+@theme {
+  --color-bg: #0a0e13;
+  --color-surface: #111821;
+  --color-surface-2: #18212d;
+  --color-line: #223044;
+  --color-accent: #2dd4bf;   /* main color (teal) */
+  --color-accent-2: #f59e0b; /* small highlights (amber) */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section[id] {
+  scroll-margin-top: 1rem;
+}
+
+/* small label above every section heading, e.g. "01 / About" */
+.section-label {
+  font-family: "Sora", sans-serif;
+  font-size: 0.85rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin-bottom: 0.75rem;
+}
+.section-heading {
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: 700;
+  margin-bottom: 3rem;
+}
+@media (min-width: 768px) {
+  .section-heading { font-size: 2.75rem; }
+}
