@@ -32,7 +32,7 @@ const Navbar = () => {
       <nav className='w-full max-w-3xl bg-surface/80 backdrop-blur-md border border-line rounded-2xl md:rounded-full px-5 py-3'>
         <div className='flex items-center justify-between'>
           <a href='#home' className='font-display font-bold text-lg'>
-            Jaya<span className='text-accent'>.</span>
+            Jayshri<span className='text-accent'>.</span>
           </a>
 
           <div className='hidden md:flex items-center gap-1'>

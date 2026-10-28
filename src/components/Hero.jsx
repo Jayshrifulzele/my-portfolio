@@ -30,7 +30,7 @@ const Hero = () => {
 
           <h1 className='text-4xl sm:text-5xl md:text-7xl font-extrabold leading-tight mb-4'>
             Hi, I'm <br />
-            <span className='text-accent'>Jaya Fulzele</span>
+            <span className='text-accent'>Jayshri Fulzele</span>
           </h1>
           <p className='font-display text-xl md:text-2xl text-slate-300 mb-5'>Frontend Developer</p>
           <p className='text-lg text-slate-400 max-w-xl mb-8 leading-8'>
@@ -65,7 +65,7 @@ const Hero = () => {
         >
           <div className='relative w-64 h-80 md:w-80 md:h-[26rem]'>
             <div className='absolute inset-0 translate-x-4 translate-y-4 rounded-[2rem] border-2 border-accent/50'></div>
-            <img src={profile} alt='Jaya Fulzele' className='relative w-full h-full object-cover rounded-[2rem]' />
+            <img src={profile} alt='Jayshri Fulzele' className='relative w-full h-full object-cover rounded-[2rem]' />
             <motion.div
               animate={{ y: [0, -8, 0] }}
               transition={{ duration: 3, repeat: Infinity, ease: 'easeInOut' }}

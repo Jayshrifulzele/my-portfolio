@@ -36,7 +36,7 @@ const Contact = () => {
     }
 
     // Option 2 (fallback): open Gmail compose in a new tab
-    const body = `Hi Jaya,\n\n${f.get('message')}\n\nFrom: ${f.get('name')} (${f.get('email')})`
+    const body = `Hi Jayshri,\n\n${f.get('message')}\n\nFrom: ${f.get('name')} (${f.get('email')})`
     const url = `https://mail.google.com/mail/?view=cm&fs=1&to=${socialLinks.email}&su=${encodeURIComponent(f.get('subject') || 'Portfolio contact')}&body=${encodeURIComponent(body)}`
     window.open(url, '_blank', 'noopener,noreferrer')
   }
